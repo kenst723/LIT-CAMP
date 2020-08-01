@@ -1,9 +1,9 @@
 package app.sato.ken.scrtch
 
 import android.graphics.Typeface
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import app.sato.ken.scrtch.NumberActivity.Companion.keyF
 import app.sato.ken.scrtch.NumberActivity.Companion.keyS
 import kotlinx.android.synthetic.main.activity_scratch.*

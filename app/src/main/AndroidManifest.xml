@@ -9,11 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListActivity"></activity>
-        <activity android:name=".StringActivity" />
+
+        <activity android:name=".ListRandom" />
+        <activity
+            android:name=".ListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
         <activity android:name=".NumberSelectActivity" />
         <activity android:name=".NumberActivity" />
-        <activity android:name=".scratchActiviy" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

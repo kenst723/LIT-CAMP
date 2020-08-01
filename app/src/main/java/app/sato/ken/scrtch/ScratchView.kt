@@ -2,12 +2,10 @@ package app.sato.ken.scrtch
 
 import android.content.Context
 import android.graphics.*
-import android.os.Build
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import android.view.View.OnTouchListener
-import androidx.annotation.RequiresApi
 
 class ScratchView : View, OnTouchListener {
     private var mWallBitmap // 塗りたくったビットマップ
